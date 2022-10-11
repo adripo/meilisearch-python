@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>meilisearch.models package &mdash; meilisearch-python  documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="meilisearch package" href="meilisearch.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> meilisearch-python
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="meilisearch.html">meilisearch package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="meilisearch.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">meilisearch.models package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-meilisearch.models.document">meilisearch.models.document module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-meilisearch.models.index">meilisearch.models.index module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-meilisearch.models.task">meilisearch.models.task module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-meilisearch.models">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.client">meilisearch.client module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.config">meilisearch.config module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.errors">meilisearch.errors module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.index">meilisearch.index module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.task">meilisearch.task module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch.version">meilisearch.version module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="meilisearch.html#module-meilisearch">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">meilisearch-python</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="meilisearch.html">meilisearch package</a> &raquo;</li>
+      <li>meilisearch.models package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/meilisearch.models.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="meilisearch-models-package">
+<h1>meilisearch.models package<a class="headerlink" href="#meilisearch-models-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-meilisearch.models.document">
+<span id="meilisearch-models-document-module"></span><h2>meilisearch.models.document module<a class="headerlink" href="#module-meilisearch.models.document" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="meilisearch.models.document.Document">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.document.</code><code class="sig-name descname">Document</code><span class="sig-paren">(</span><em class="sig-param">doc: dict[str, Any]</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/document.html#Document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.document.Document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="meilisearch.models.document.DocumentsResults">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.document.</code><code class="sig-name descname">DocumentsResults</code><span class="sig-paren">(</span><em class="sig-param">resp: dict[str, Any]</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/document.html#DocumentsResults"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.document.DocumentsResults" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-meilisearch.models.index">
+<span id="meilisearch-models-index-module"></span><h2>meilisearch.models.index module<a class="headerlink" href="#module-meilisearch.models.index" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="meilisearch.models.index.IndexStats">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.index.</code><code class="sig-name descname">IndexStats</code><span class="sig-paren">(</span><em class="sig-param">doc: dict[str, Any]</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/index.html#IndexStats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.index.IndexStats" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-meilisearch.models.task">
+<span id="meilisearch-models-task-module"></span><h2>meilisearch.models.task module<a class="headerlink" href="#module-meilisearch.models.task" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="meilisearch.models.task.Task">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.task.</code><code class="sig-name descname">Task</code><span class="sig-paren">(</span><em class="sig-param">*args: Any</em>, <em class="sig-param">**kwargs: Any</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/task.html#Task"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.task.Task" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">camel_converter.pydantic_base.CamelBase</span></code></p>
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.details">
+<code class="sig-name descname">details</code><em class="property">: Optional[Dict[str, Any]]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.details" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.duration">
+<code class="sig-name descname">duration</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.duration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.enqueued_at">
+<code class="sig-name descname">enqueued_at</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.enqueued_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.finished_at">
+<code class="sig-name descname">finished_at</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.finished_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.index_uid">
+<code class="sig-name descname">index_uid</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.index_uid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.started_at">
+<code class="sig-name descname">started_at</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.started_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.status">
+<code class="sig-name descname">status</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.type">
+<code class="sig-name descname">type</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.Task.uid">
+<code class="sig-name descname">uid</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.Task.uid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="meilisearch.models.task.TaskInfo">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.task.</code><code class="sig-name descname">TaskInfo</code><span class="sig-paren">(</span><em class="sig-param">*args: Any</em>, <em class="sig-param">**kwargs: Any</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/task.html#TaskInfo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.task.TaskInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">camel_converter.pydantic_base.CamelBase</span></code></p>
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.details">
+<code class="sig-name descname">details</code><em class="property">: Optional[Dict[str, Any]]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.details" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.duration">
+<code class="sig-name descname">duration</code><em class="property">: Optional[str]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.duration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.enqueued_at">
+<code class="sig-name descname">enqueued_at</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.enqueued_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.finished_at">
+<code class="sig-name descname">finished_at</code><em class="property">: Optional[str]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.finished_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.index_uid">
+<code class="sig-name descname">index_uid</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.index_uid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.started_at">
+<code class="sig-name descname">started_at</code><em class="property">: Optional[str]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.started_at" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.status">
+<code class="sig-name descname">status</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.task_uid">
+<code class="sig-name descname">task_uid</code><em class="property">: Optional[str]</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.task_uid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="meilisearch.models.task.TaskInfo.type">
+<code class="sig-name descname">type</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#meilisearch.models.task.TaskInfo.type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="meilisearch.models.task.TaskResults">
+<em class="property">class </em><code class="sig-prename descclassname">meilisearch.models.task.</code><code class="sig-name descname">TaskResults</code><span class="sig-paren">(</span><em class="sig-param">resp: Dict[str, Any]</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/meilisearch/models/task.html#TaskResults"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#meilisearch.models.task.TaskResults" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-meilisearch.models">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-meilisearch.models" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="meilisearch.html" class="btn btn-neutral float-left" title="meilisearch package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2019, Meili SAS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
